@@ -39,7 +39,7 @@ export default defineAppConfig({
       card: {
         image: true,
         // options: dashed, shadow, outline, bullet
-        type: 'outline',
+        type: 'shadow',
       },
       submit: {
         show: true,

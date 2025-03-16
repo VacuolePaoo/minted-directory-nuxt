@@ -6,8 +6,8 @@ Submit your startup to the Minted directory to showcase your business to a growi
 
 ---
 
-# ::tally-form
-# ---
-# embed: https://tally.so/embed/mOYErk?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1
-# ---
-# ::
+::tally-form
+---
+embed: https://tally.so/embed/mOYErk?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1
+---
+::

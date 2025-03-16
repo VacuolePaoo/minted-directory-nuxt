@@ -8,7 +8,7 @@ og_image:
 ::pre-render-tags
 ::
 
-# This is your brand new directory ! 👋
+# 欢迎光顾液泡的收藏夹 👋
 
 You can customize this page in markdown.
 

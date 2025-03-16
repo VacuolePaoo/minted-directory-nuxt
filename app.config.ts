@@ -13,7 +13,7 @@ export default defineAppConfig({
     description: '液泡的网站收藏夹',
     url: 'https://fav.vacuole.top',
     favicon: {
-      image: '',
+      image: '/favicon.svg',
       emoji: '🍃',
     },
   },

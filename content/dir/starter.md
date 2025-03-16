@@ -1,5 +1,4 @@
 ---
-cover: /logo.png
 featured: true
 tags:
   - SAAS

@@ -1,17 +1,17 @@
 export default defineAppConfig({
   general: {
-    title: 'Minted Directory',
-    logo: '',
+    title: 'Vacuole\'s Favourites',
+    logo: '/favicon.svg',
     iconLogo: 'fluent-emoji-flat:leaf-fluttering-in-wind',
-    language: 'en',
+    language: 'zh-CN',
   },
   site: {
     // override the general settings for seo tags.
     // leave empty for general priority.
     // url is necessary for correct function of seo module.
-    name: 'Minted Directory',
-    description: 'Example Description',
-    url: 'https://example.com',
+    name: 'Vacuole\'s Favourites',
+    description: '液泡的网站收藏夹',
+    url: 'https://fav.vacuole.top',
     favicon: {
       image: '',
       emoji: '🍃',
@@ -20,18 +20,18 @@ export default defineAppConfig({
   directory: {
     listingPageLayout: 'card',
     search: {
-      placeholder: 'Search among {0} tools',
-      icon: 'tabler:bow',
+      placeholder: '在 {0} 个收藏中寻找...',
+      icon: 'tabler:binoculars',
       tags: {
         // options: none,select,show-all,
-        display: 'select',
+        display: 'show-all',
         intersection: false,
       },
     },
     grid: {
       list: false,
       emptyState: {
-        text: 'Seems that this entry is missing from the archives.',
+        text: '无数据',
         // options: button, simple, link
         type: 'button',
         icon: 'tabler:exclamation-mark',
@@ -39,7 +39,7 @@ export default defineAppConfig({
       card: {
         image: true,
         // options: dashed, shadow, outline, bullet
-        type: 'shadow',
+        type: 'bullet',
       },
       submit: {
         show: true,
@@ -54,7 +54,7 @@ export default defineAppConfig({
       showOnAllPages: true,
       showOnSide: true,
       icon: 'tabler:star',
-      labelForCard: 'Featured ✨',
+      labelForCard: '推荐 ✨',
     },
     tags: [
       { name: 'SAAS', color: 'blue' },

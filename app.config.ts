@@ -31,18 +31,18 @@ export default defineAppConfig({
     grid: {
       list: false,
       emptyState: {
-        text: '无数据',
+        text: '此分类下没有内容',
         // options: button, simple, link
-        type: 'button',
+        type: 'simple',
         icon: 'tabler:exclamation-mark',
       },
       card: {
         image: true,
         // options: dashed, shadow, outline, bullet
-        type: 'shadow',
+        type: 'dashed',
       },
       submit: {
-        show: true,
+        show: '',
         first: false,
         title: 'Submit a template',
         description:
@@ -73,7 +73,7 @@ export default defineAppConfig({
   },
   header: {
     banner: {
-      show: true,
+      show: false,
       text: 'Create your own directory website in minutes.',
       link: 'https://minteddirectory.com',
       brandText: 'MintedDirectory',

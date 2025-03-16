@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxt/eslint',
     '@nuxt/image',
+    '@nuxt/scripts',
   ],
   devtools: { enabled: true },
   site: {

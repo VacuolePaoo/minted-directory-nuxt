@@ -1,7 +1,7 @@
 ---
 featured: true
 tags:
-  - SAAS
+  - AI
 ---
 
 # First Listing

@@ -39,14 +39,14 @@ export default defineAppConfig({
       card: {
         image: true,
         // options: dashed, shadow, outline, bullet
-        type: 'dashed',
+        type: 'shadow',
       },
       submit: {
-        show: '',
+        show: true,
         first: false,
-        title: 'Submit a template',
+        title: '提交新的网站',
         description:
-          'Submit a template to show off a good project to other people.',
+          '将你收藏的网站也加入进来，分享给更多人',
         hideable: true,
       },
     },
@@ -57,18 +57,14 @@ export default defineAppConfig({
       labelForCard: '推荐 ✨',
     },
     tags: [
-      { name: 'SAAS', color: 'blue' },
-      { name: 'dashboard', color: 'green' },
-      { name: 'landing-page' },
-      { name: 'toolbox' },
-      { name: 'agency' },
-      { name: 'markdown-based' },
-      { name: 'basics', color: 'indigo' },
+      { name: 'AI', color: 'indigo' },
+      { name: '知识', color: 'green' },
+      { name: '工具', color: 'blue' },
     ],
     tagPages: {
-      title: 'Available {0} products:',
+      title: '有 {0} 个属于此分类的页面:',
       description:
-        'View all available tools and templates in the {0} category...',
+        '在 {0} 个分类中查看所有收藏...',
     },
   },
   header: {
@@ -81,18 +77,18 @@ export default defineAppConfig({
     navbar: {
       colorModeSelector: true,
       links: [
-        { name: 'Directory', to: '/' },
-        { name: 'Blog', to: '/blog' },
-        { name: 'Advertise', to: '/advertise' },
+        { name: '收藏夹', to: '/' },
+        { name: '博客', to: '/blog' },
+        { name: '好东西', to: '/advertise' },
         {
-          name: 'Analytics',
+          name: '统计',
           to: 'https://us.posthog.com/shared/7dgSk4cvgNYnJwBu6R47kZXHBUBJWQ',
           target: '_blank',
         },
       ],
     },
     actionButton: {
-      text: 'Submit a listing',
+      text: '提交网站',
       href: '/submit',
     },
   },
